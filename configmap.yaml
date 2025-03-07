@@ -5,9 +5,12 @@ metadata:
 data:
   index.html: |
     <html>
-    <head><title>Welcome to ArgoCD Web!</title></head>
+    <head>
+      <meta charset="UTF-8">
+      <title>Welcome to ArgoCD Web!</title>
+    </head>
     <body>
       <h1>🚀 ArgoCD Auto Sync Test Success! 🎉</h1>
-      <p>Nội dung này được cập nhật tự động khi có thay đổi trên GitHub!</p>
+      <p>Nội dung này được cập nhật tự động khi có thay doi trên GitHub!</p>
     </body>
     </html>
