@@ -4,13 +4,15 @@ metadata:
   name: web-content
 data:
   index.html: |
-    <html>
+    <!DOCTYPE html>
+    <html lang="vi">
     <head>
-      <meta charset="UTF-8">
-      <title>Welcome to ArgoCD Web!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website Tĩnh với ArgoCD</title>
     </head>
     <body>
-      <h1>🚀 ArgoCD Auto Sync Test Success! 🎉</h1>
-      <p>Nội dung này được cập nhật tự động khi có thay doi trên GitHub!</p>
+        <h1>🚀 Chào mừng bạn với website tĩnh!</h1>
+        <p>Nội dung này được deploy qua Kubernetes và ArgoCD.</p>
     </body>
     </html>
